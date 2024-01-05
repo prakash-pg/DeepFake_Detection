@@ -13,17 +13,10 @@ pip install gradio torch facenet-pytorch opencv-python
 ## Model Setup
 
 1. **Download the Pre-trained Model:**
-   Download the pre-trained model checkpoint `resnetinceptionv1_epoch_32.pth` from [this link](https://github.com/davidsandberg/facenet.git) and save it in the root directory.
+   Download the pre-trained model checkpoint `resnetinceptionv1_epoch_32.pth`
 
 2. **Run the Code:**
-   Execute the main code file in a Jupyter notebook or a Python script. This code includes the Gradio interface setup, model loading, and prediction logic.
-
-```python
-# Replace '/content/' with the path to your working directory
-checkpoint_path = "/content/resnetinceptionv1_epoch_32.pth"
-
-# ... (Rest of the code)
-```
+   Execute the main code file in a Jupyter notebook or a Python script. This code includes the Gradio interface setup, model loading, and prediction logic for the provided image.
 
 3. **Launch Gradio Interface:**
    The interface will be accessible at http://127.0.0.1:7860/. Open this URL in your web browser to interact with the deep fake detection system.
