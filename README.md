@@ -1,4 +1,4 @@
-# Deep Fake Detection using Gradio and PyTorch
+# Image based Deep Fake Detection using Gradio and PyTorch
 
 This repository contains code for a deep fake detection system using Gradio for building the user interface and PyTorch for the model.
 
